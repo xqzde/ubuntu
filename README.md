@@ -17,7 +17,7 @@
 确保你在 Dockerfile 所在目录中：
 
 ```bash
-docker run -d --name xq-ubuntu -e SSH_USER=ubuntu -e SSH_PASSWORD=123456 -p 8022:22 ghcr.io/xq404/ubuntu:latest
+docker run -d --name xq-ubuntu -e SSH_USER=ubuntu -e SSH_PASSWORD=123456 -p 8022:22 ghcr.io/xqzde/ubuntu:latest
 ```
 
 ## 🔐 SSH 连接方式
